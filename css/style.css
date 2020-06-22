@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url("/assets/images/technology-background.jpg");
+  background-image: url("../assets/images/technology-background.jpg");
   background-size: cover;
   height: 100vh;
   color: white;
