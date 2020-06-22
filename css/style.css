@@ -1,0 +1,29 @@
+.jumbotron {
+  background-image: url("/assets/images/technology-background.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+.card1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25vh;
+}
+.card2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25vh;
+}
+.card3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25vh;
+}
+
+.details {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.collection {
+  margin-top: 50px;
+}
