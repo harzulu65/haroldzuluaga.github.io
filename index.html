@@ -1,40 +1,115 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html lang="en-us">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
+    <!-- We need the following responsive meta tag to ensure things scale correctly across varying
+  devices. -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-    <title>About Me</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>My First Website</title>
+
+    <!-- We need to bring in the bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-
   <body>
-    <header class="masthead">
-      <p class="masthead-intro">Hi I'm</p>
-      <h1 class="masthead-heading">Harold Zuluaga</h1>
-    </header>
-    <section class="details">
-      <h1>Introduction</h1>
-      <p>I am a software developer</p>
-      <h1>Where I'm From</h1>
-      <p>Originally from Colombia, living for over 20 years in the US</p>
-      <h1>What are your favorite hobbies?</h1>
-      <p>Outdoors, hiking, NBA</p>
-      <h1>What's your dream job?</h1>
-      <p>To work for NASA</p>
-      <h1>Where do you live?</h1>
-      <p>Huntington Beach</p>
-      <h1>Why do you want to be a web developer?</h1>
-      <p>
-        I like programming....!!!!: Programming has been alway one of my
-        passions and it's still one of the fastest growing careers
-      </p>
-    </section>
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: #e3f2fd;"
+    >
+      <a class="navbar-brand" href="#">Harold Zuluaga</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <footer id="footer">
-      <ul class="social">
-        <li><a href="http://www.github.com/usernamehere">Github</a></li>
-      </ul>
-    </footer>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-9 col-md-6 col-lg-3 mr-auto">
+            <div class="card1" style="width: 18rem;">
+              <a href="index.html">
+                <img src="assets/images/haroldzuluaga.jpg" class="card1" alt="Home">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Harold Zuluaga</h5>
+                <p class="card-text">Welcome to my website .... !!!!</p>
+                <a href="index.html" class="btn btn-primary">HOME</a>
+              </div>
+            </div>
+          </div>
+        <div class="col-sm-9 col-md-6 col-lg-3 mr-auto">
+            <div class="card2" style="width: 18rem;">
+              <a href="portfolio.html">
+              <img src="assets/images/portfolio.jpg" class="card2" alt="Portfolio">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Portfolio</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="portfolio.html" class="btn btn-primary">Portfolio</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-9 col-md-6 col-lg-3 mr-auto">
+            <div class="card2" style="width: 18rem;">
+              <a href="contact.html">
+              <img src="assets/images/contact.jpg" class="card3" alt="...">
+              </a> 
+              <div class="card-body">
+                  <h5 class="card-title">Contact</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="contact.html" class="btn btn-primary">Contact</a>
+                </div>
+            </div>
+          </div>
+    </div>
+
+    <!-- Here we bring in some scripts required to allow some Bootstrap components to work.
+    For now, this is code to copy and paste. We'll get to script elements soon enough. -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
